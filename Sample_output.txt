@@ -1,0 +1,138 @@
+--- Welcome to the Gym Management System ---
+
+=== Main Menu ===
+1. Add Trainer
+2. View Trainers
+3. Add Member
+4. View Members
+5. Exit
+Select an option: 1
+Enter Trainer ID: 101
+Enter Name: Alex Akere
+Enter Age: 18
+Enter Specialty: Bodybuilding
+Trainer added!
+
+=== Main Menu ===
+1. Add Trainer
+2. View Trainers
+3. Add Member
+4. View Members
+5. Exit
+Select an option: 2
+
+--- Current Trainers in Database ---
+Trainer [ID: 101, Name: Alex Akere, Age: 18, Specialty: Bodybuilding]
+
+=== Main Menu ===
+1. Add Trainer
+2. View Trainers
+3. Add Member
+4. View Members
+5. Exit
+Select an option: 3
+Enter Member ID: 101
+Enter Name: David
+Enter Age: 3
+Enter Membership Type: Gold
+Validation Error: Age must be at least 16 to join the gym.
+
+=== Main Menu ===
+1. Add Trainer
+2. View Trainers
+3. Add Member
+4. View Members
+5. Exit
+Select an option: 3
+Enter Member ID: 401
+Enter Name: Paul
+Enter Age: 27
+Enter Membership Type: Silver
+Member added to database successfully!
+
+=== Main Menu ===
+1. Add Trainer
+2. View Trainers
+3. Add Member
+4. View Members
+5. Exit
+Select an option: 1
+Enter Trainer ID: ABC
+An error occurred: null
+
+=== Main Menu ===
+1. Add Trainer
+2. View Trainers
+3. Add Member
+4. View Members
+5. Exit
+Select an option: Please enter a valid number (1-5).
+
+=== Main Menu ===
+1. Add Trainer
+2. View Trainers
+3. Add Member
+4. View Members
+5. Exit
+Select an option: 1
+Enter Trainer ID: 300
+Enter Name: John
+Enter Age: 14
+Enter Specialty: Calisthenics
+Validation Error: Age must be at least 16 to join the gym.
+
+=== Main Menu ===
+1. Add Trainer
+2. View Trainers
+3. Add Member
+4. View Members
+5. Exit
+Select an option: 4
+
+--- Current Members in Database ---
+Member [ID: 401, Name: Paul, Age: 27, Plan: Silver]
+
+=== Main Menu ===
+1. Add Trainer
+2. View Trainers
+3. Add Member
+4. View Members
+5. Exit
+Select an option: 2
+
+--- Current Trainers in Database ---
+Trainer [ID: 101, Name: Alex Akere, Age: 18, Specialty: Bodybuilding]
+
+=== Main Menu ===
+1. Add Trainer
+2. View Trainers
+3. Add Member
+4. View Members
+5. Exit
+Select an option: 1
+Enter Trainer ID: 701
+Enter Name: David
+Enter Age: 16
+Enter Specialty: Weight Loss
+Trainer added!
+
+=== Main Menu ===
+1. Add Trainer
+2. View Trainers
+3. Add Member
+4. View Members
+5. Exit
+Select an option: 2
+
+--- Current Trainers in Database ---
+Trainer [ID: 101, Name: Alex Akere, Age: 18, Specialty: Bodybuilding]
+Trainer [ID: 701, Name: David, Age: 16, Specialty: Weight Loss]
+
+=== Main Menu ===
+1. Add Trainer
+2. View Trainers
+3. Add Member
+4. View Members
+5. Exit
+Select an option: 5
+Exiting program. Data has been saved to MariaDB.
