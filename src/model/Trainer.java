@@ -16,11 +16,9 @@ public class Trainer extends Person {
 
     private String specialty;
 
-    // Constructor throws InvalidMemberException because the parent (Person) does
     public Trainer(int id, String name, int age, String specialty) throws InvalidMemberException {
-        super(id, name, age); // Passes id, name, and age to the Person constructor
+        super(id, name, age); 
         
-        // Validation to hit those "Excellent" marks
         if (specialty == null || specialty.trim().isEmpty()) {
             throw new InvalidMemberException("Trainer specialty cannot be empty.");
         }
