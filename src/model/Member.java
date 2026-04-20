@@ -17,7 +17,6 @@ public class Member extends Person {
 
     public Member(int id, String name, int age, String membershipType) throws InvalidMemberException {
         super(id, name, age);
-        // Basic Validation to hit the "Validation" rubric marks
         if (membershipType == null || membershipType.trim().isEmpty()) {
             throw new InvalidMemberException("Membership type cannot be empty.");
         }
