@@ -15,7 +15,6 @@ public abstract class Person implements Displayable {
     protected String name;
     protected int age;
 
-    // Constructor throws custom exception to satisfy validation requirements
     public Person(int id, String name, int age) throws InvalidMemberException {
         if (name == null || name.trim().isEmpty()) {
             throw new InvalidMemberException("Name cannot be empty.");
@@ -49,7 +48,6 @@ public abstract class Person implements Displayable {
         this.age = age;
     }
 
-    // Abstract method as planned in the UML diagram
     @Override
     public abstract void displayInfo();
 }
