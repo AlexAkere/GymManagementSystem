@@ -16,10 +16,10 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
 
-    // Keep the URL clean for version 2.7
+    // Keep the URL clean
     private static final String URL = "jdbc:mariadb://localhost:3306/gym_db";
     private static final String USER = "root"; 
-    // UPDATED: Matches your HeidiSQL password
+    // Matches HeidiSQL password
     private static final String PASSWORD = "password"; 
 
     public static Connection getConnection() throws SQLException {
